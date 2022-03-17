@@ -1,8 +1,8 @@
 # Employees App
 
 ## Tech information
-- Laravel 5.8
-- PHP 7.4
+- Laravel 9.1
+- PHP 8.1
 - [DB Scheme](https://drawsql.app/orlovkn/diagrams/employees-app)
 
 ### Steps for local docker:
@@ -23,5 +23,5 @@
       ```php artisan migrate``` or
       ```php artisan migrate:fresh --seed```
 ### Open app in your browser
-```http://127.0.0.1:8078/```
+```http://127.0.0.1:8062/```
 
