@@ -9,7 +9,7 @@ class UserController extends Controller
 {
     public function index()
     {
-        $employees = User::all();
+        $employees = User::query()->simplePaginate(10);
 
         return view('employees.index', compact('employees'));
     }
