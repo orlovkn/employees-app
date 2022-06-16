@@ -27,7 +27,7 @@ services:
       SERVICE_NAME: app
       APP_ENV: local
     ports:
-      - "8062:8000"
+      - "8063:8000"
     volumes:
       - .:/app
       - ./.docker/supervisor.conf:/etc/supervisor/supervisord.conf
@@ -44,6 +44,6 @@ services:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_DATABASE: service
     ports:
-      - "33062:3306"
+      - "33063:3306"
     volumes:
       - mysql_data:/var/lib/mysql
